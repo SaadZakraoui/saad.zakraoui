@@ -1,1 +1,38 @@
 @import "tailwindcss";
+@theme {
+
+    /* COLORS */
+
+    --color-primary: #B5121B;
+    --color-primary-dark: #960D16;
+
+    --color-dark: #252329;
+    --color-body: #666666;
+
+    --color-light: #F5F5F5;
+    --color-white: #FFFFFF;
+
+    --color-border: #E5E5E5;
+    --color-soft-pink: #F8EEEE;
+
+
+    /* FONT SIZES */
+
+    --text-xs: 12px;
+    --text-sm: 14px;
+    --text-base: 16px;
+    --text-lg: 18px;
+    --text-xl: 20px;
+    --text-2xl: 24px;
+    --text-3xl: 28px;
+    --text-4xl: 36px;
+    --text-5xl: 48px;
+
+
+    /* FONT FAMILY */
+
+    --font-heading: Georgia, serif;
+    --font-body: Arial, sans-serif;
+
+
+}
