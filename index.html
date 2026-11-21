@@ -1,12 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <link href="./public/css/output.css" rel="stylesheet">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link href="./public/css/output.css" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-<body>
-   
+
+<body class="bg-white text-dark font-body">
+   <header id="saad" class="bg-white shadow-sm sticky top-0 z-50">
+      <!-- navbar -->
+      <header class="w-full bg-white">
+
+         <div class="max-w-337.5 mx-auto px-6 h-23.75 flex items-center justify-between">
+
+            <a href="#" class="text-[32px] font-bold text-[#37373f]">
+               Yummy<span class="text-[#ce1212]">.</span>
+            </a>
+            <input type="checkbox" id="menu" class="hidden peer">
+            <nav class="hidden lg:flex items-center gap-8">
+               <a href="#" class="text-[16px] text-[#7f8388] hover:text-[#ce1212] transition">
+                  Home
+               </a>
+               <a href="#about" class="text-[16px] text-[#7f8388] hover:text-[#ce1212] transition">
+                  About
+               </a>
+               <a href="#menu-section" class="text-[16px] text-[#7f8388] hover:text-[#ce1212] transition">
+                  Menu
+               </a>
+               <a href="#events" class="text-[16px] text-[#7f8388] hover:text-[#ce1212] transition">
+                  Events
+               </a>
+               <a href="#chefs" class="text-[16px] text-[#7f8388] hover:text-[#ce1212] transition">
+                  Chefs
+               </a>
+               <a href="#gallery" class="text-[16px] text-[#7f8388] hover:text-[#ce1212] transition">
+                  Gallery
+               </a>
+               <div class="relative group">
+                  <a href="#" class="flex items-center gap-2 text-[16px] text-[#7f8388] hover:text-[#ce1212]]">
+                     Dropdown
+                     <i class="fa-solid fa-chevron-down text-[11px]"></i>
+                  </a>
+                  <div class="hidden group-hover:flex absolute top-full left-0
+                    bg-white shadow-lg min-w-45 flex-col py-3 z-50">
+                     <a href="#" class="px-5 py-3 text-sm hover:text-[#ce1212]">
+                        Dropdown 1
+                     </a>
+                     <a href="#" class="px-5 py-3 text-sm hover:text-[#ce1212]">
+                        Dropdown 2
+                     </a>
+                     <a href="#" class="px-5 py-3 text-sm hover:text-[#ce1212]">
+                        Dropdown 3
+                     </a>
+                  </div>
+               </div>
+               <a href="#contact" class="text-[16px] text-[#7f8388] hover:text-[#ce1212] transition">
+                  Contact
+               </a>
+            </nav>
+            <a href="#booking" class="hidden lg:block bg-[#ce1212] text-white text-[14px]
+            px-7 py-3 rounded-full hover:bg-[#b20d0d] transition">
+               Book a Table
+            </a>
+            <label for="menu" class="lg:hidden cursor-pointer text-2xl text-[#37373f]">
+               <i class="fa-solid fa-bars"></i>
+            </label>
+         </div>
+         <nav class="hidden peer-checked:flex lg:hidden flex-col
+        bg-white shadow-md px-6 py-6 gap-5">
+            <a href="#" class="text-[#ce1212]">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu-section">Menu</a>
+            <a href="#events">Events</a>
+            <a href="#chefs">Chefs</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#">Dropdown</a>
+            <a href="#contact">Contact</a>
+            <a href="#booking" class="bg-[#ce1212] text-white text-center py-3 rounded-full">
+               Book a Table
+            </a>
+         </nav>
+      </header>
+
+      <!-- hero section -->
+      <section class="bg-light w-full">
+
+         <div class="max-w-300 mx-auto px-6 min-h-132.5
+                flex flex-col-reverse md:flex-row
+                items-center justify-between gap-10 py-12 md:py-0">
+            <div class="w-full md:w-1/2 text-center md:text-left">
+               <h1 class="font-heading text-[42px] md:text-[52px]
+                       leading-[1.15] text-[#37373f] uppercase">
+                  Enjoy Your Healthy
+                  <br>
+                  Delicious Food
+               </h1>
+               <p class="font-body text-[16px] md:text-[18px]
+                      text-[#676775] leading-relaxed mt-4 mb-7">
+                  We are team of talented designers making websites with
+                  Bootstrap
+               </p>
+               <div class="flex items-center justify-center md:justify-start
+                        gap-6 flex-wrap">
+                  <a href="#booking" class="bg-[#ce1212] text-white text-[14px]
+                          font-medium px-7 py-3 rounded-full
+                          shadow-lg hover:bg-[#b20d0d] transition">
+                     Book a Table
+                  </a>
+                  <a href="#" class="flex items-center gap-2 text-[14px]
+                          font-medium text-[#37373f] hover:text-[#ce1212]">
+                     <i class="fa-regular fa-circle-play text-[#ce1212]
+                              text-[30px]"></i>
+                     Watch Video
+                  </a>
+               </div>
+            </div>
+            <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+               <img src="/public/images/menu/menu-item-1.png" alt="Delicious Food" class="w-65 sm:w-82.5 md:w-100
+                       lg:w-115 h-auto object-contain">
+            </div>
+         </div>
+      </section>
+      </main>
 </body>
 </html>

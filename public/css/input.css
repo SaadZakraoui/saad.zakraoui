@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @theme {
 
-    /* COLORS */
+   
 
     --color-primary: #B5121B;
     --color-primary-dark: #960D16;
@@ -16,7 +16,7 @@
     --color-soft-pink: #F8EEEE;
 
 
-    /* FONT SIZES */
+  
 
     --text-xs: 12px;
     --text-sm: 14px;
@@ -29,10 +29,11 @@
     --text-5xl: 48px;
 
 
-    /* FONT FAMILY */
 
-    --font-heading: Georgia, serif;
-    --font-body: Arial, sans-serif;
+
+    --font-heading: amatic sc,sans-serif;
+    --font-body: Roboto, sans-serif;
 
 
 }
+ 
