@@ -448,6 +448,9 @@
   .w-full {
     width: 100%;
   }
+  .w-screen {
+    width: 100vw;
+  }
   .max-w-5xl {
     max-width: var(--container-5xl);
   }
@@ -561,6 +564,9 @@
   }
   .overflow-x-auto {
     overflow-x: auto;
+  }
+  .overflow-x-hidden {
+    overflow-x: hidden;
   }
   .rounded-4xl {
     border-radius: var(--radius-4xl);
